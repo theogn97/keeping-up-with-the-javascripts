@@ -43,13 +43,13 @@ Wishlist object (constructor)
 `}`  
 Cart object (constructor)  
 `function Cart(user, cartArray) {`  
-`&nbsp;&nbsp;&nbsp;&nbsp;this.user = user;`  
-`&nbsp;&nbsp;&nbsp;&nbsp;this.cartArray = cartArray; // cartArray is an array of objects each containing a product ID and amount of purchase for that product`  
+`    this.user = user;`  
+`    this.cartArray = cartArray; // cartArray is an array of objects each containing a product ID and amount of purchase for that product`  
 `}`  
 Order object (constructor)  
 `function Order(user, productID, amount, status) {`  
-`&nbsp;&nbsp;&nbsp;&nbsp;this.user = user;`  
-`&nbsp;&nbsp;&nbsp;&nbsp;this.productID = productID;`  
-`&nbsp;&nbsp;&nbsp;&nbsp;this.amount = amount;`  
-`&nbsp;&nbsp;&nbsp;&nbsp;this.status = status; // Status defines the status of the product delivery from the online store`  
+`    this.user = user;`  
+`    this.productID = productID;`  
+`    this.amount = amount;`  
+`    this.status = status; // Status defines the status of the product delivery from the online store`  
 `}`
