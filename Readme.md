@@ -18,7 +18,8 @@ CRUD operations performed by users include the following:
 
 Main objects of the system include:  
 User object (constructor)  
-`function User (firstName, lastName, username, address, email, password) {`  
+`function User (id, firstName, lastName, username, address, email, password) {`  
+`    this.id = id;`  
 `    this.firstName = firstName;`  
 `    this.lastName = lastName;`  
 `    this.username = username;`  
@@ -27,11 +28,13 @@ User object (constructor)
 `    this.password = password;`  
 `}`  
 Product object (constructor)  
-`function Product(user, name, description, photoArray, price, stock, minimumOrder) {`  
+`function Product(id, user, name, description, photoArray, timestamp, price, stock, minimumOrder) {`  
+`    this.id = id;`  
 `    this.user = user;`  
 `    this.name = name;`  
 `    this.description = description;`  
 `    this.photoArray = photoArray; // photoArray is an array of picture data`  
+`    this.timestamp = timestamp;`  
 `    this.price = price;`  
 `    this.stock = stock;`  
 `    this.minimumOrder = minimumOrder;`  
@@ -52,4 +55,13 @@ Order object (constructor)
 `    this.productID = productID;`  
 `    this.amount = amount;`  
 `    this.status = status; // Status defines the status of the product delivery from the online store`  
-`}`
+`}`  
+Chat object (constructor)  
+`function Chat(sender, recipient, timestamp, message) {`  
+`    this.sender = sender;`  
+`    this.recipient = recipient;`  
+`    this.timestamp = timestamp;`  
+`    this.message = message;`  
+`}`  
+
+All of the above objects are related together on the user ID, and some of them are related on the product ID
