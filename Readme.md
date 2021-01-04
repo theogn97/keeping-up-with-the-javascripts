@@ -18,38 +18,38 @@ CRUD operations performed by users include the following:
 
 Main objects of the system include:  
 User object (constructor)  
-`function User (firstName, lastName, username, address, email, password) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.username = username;
-    this.address = address;
-    this.email = email;
-    this.password = password;
+`function User (firstName, lastName, username, address, email, password) {  
+    this.firstName = firstName;  
+    this.lastName = lastName;  
+    this.username = username;  
+    this.address = address;  
+    this.email = email;  
+    this.password = password;  
 }`  
 Product object (constructor)  
-`function Product(user, name, description, photoArray, price, stock, minimumOrder) {
-    this.user = user;
-    this.name = name;
-    this.description = description;
-    this.photoArray = photoArray; // photoArray is an array of picture data
-    this.price = price;
-    this.stock = stock;
-    this.minimumOrder = minimumOrder;
+`function Product(user, name, description, photoArray, price, stock, minimumOrder) {  
+    this.user = user;  
+    this.name = name;  
+    this.description = description;  
+    this.photoArray = photoArray; // photoArray is an array of picture data  
+    this.price = price;  
+    this.stock = stock;  
+    this.minimumOrder = minimumOrder;  
 }`  
 Wishlist object (constructor)  
-`function Wishlist(user, wishlistArray) {
-    this.user = user;
-    this.wishlistArray = this.wishlistArray; // wishlistArray is an array of product IDs
+`function Wishlist(user, wishlistArray) {  
+    this.user = user;  
+    this.wishlistArray = this.wishlistArray; // wishlistArray is an array of product IDs  
 }`  
 Cart object (constructor)  
-`function Cart(user, cartArray) {
-    this.user = user;
-    this.cartArray = cartArray; // cartArray is an array of objects each containing a product ID and amount of purchase for that product
+`function Cart(user, cartArray) {  
+    this.user = user;  
+    this.cartArray = cartArray; // cartArray is an array of objects each containing a product ID and amount of purchase for that product  
 }`  
 Order object (constructor)  
-`function Order(user, productID, amount, status) {
-    this.user = user;
-    this.productID = productID;
-    this.amount = amount;
-    this.status = status; // Status defines the status of the product delivery from the online store
+`function Order(user, productID, amount, status) {  
+    this.user = user;  
+    this.productID = productID;  
+    this.amount = amount;  
+    this.status = status; // Status defines the status of the product delivery from the online store  
 }`
