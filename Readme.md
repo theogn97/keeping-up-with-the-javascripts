@@ -18,28 +18,28 @@ CRUD operations performed by users include the following:
 
 Main objects of the system include:  
 User object (constructor)  
-`function User (firstName, lastName, username, address, email, password) {  
-    this.firstName = firstName;  
-    this.lastName = lastName;  
-    this.username = username;  
-    this.address = address;  
-    this.email = email;  
-    this.password = password;  
-}`  
+`function User (firstName, lastName, username, address, email, password) {`  
+`    this.firstName = firstName;`  
+`    this.lastName = lastName;`  
+`    this.username = username;`  
+`    this.address = address;`  
+`    this.email = email;`  
+`    this.password = password;`  
+`}`  
 Product object (constructor)  
-`function Product(user, name, description, photoArray, price, stock, minimumOrder) {  
-    this.user = user;  
-    this.name = name;  
-    this.description = description;  
-    this.photoArray = photoArray; // photoArray is an array of picture data  
-    this.price = price;  
-    this.stock = stock;  
-    this.minimumOrder = minimumOrder;  
-}`  
+`function Product(user, name, description, photoArray, price, stock, minimumOrder) {`  
+`    this.user = user;`  
+`    this.name = name;`  
+`    this.description = description;`  
+`    this.photoArray = photoArray; // photoArray is an array of picture data`  
+`    this.price = price;`  
+`    this.stock = stock;`  
+`    this.minimumOrder = minimumOrder;`  
+`}`  
 Wishlist object (constructor)  
 `function Wishlist(user, wishlistArray) {`  
-`&nbsp;&nbsp;&nbsp;&nbsp;this.user = user;`  
-`&nbsp;&nbsp;&nbsp;&nbsp;this.wishlistArray = this.wishlistArray; // wishlistArray is an array of product IDs`  
+`    this.user = user;`  
+`    this.wishlistArray = this.wishlistArray; // wishlistArray is an array of product IDs`  
 `}`  
 Cart object (constructor)  
 `function Cart(user, cartArray) {`  
