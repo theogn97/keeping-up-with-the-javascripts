@@ -37,19 +37,19 @@ Product object (constructor)
     this.minimumOrder = minimumOrder;  
 }`  
 Wishlist object (constructor)  
-`function Wishlist(user, wishlistArray) {  
-    this.user = user;  
-    this.wishlistArray = this.wishlistArray; // wishlistArray is an array of product IDs  
-}`  
+`function Wishlist(user, wishlistArray) {`  
+`&nbsp;&nbsp;&nbsp;&nbsp;this.user = user;`  
+`&nbsp;&nbsp;&nbsp;&nbsp;this.wishlistArray = this.wishlistArray; // wishlistArray is an array of product IDs`  
+`}`  
 Cart object (constructor)  
 `function Cart(user, cartArray) {`  
-`    this.user = user;`  
-`    this.cartArray = cartArray; // cartArray is an array of objects each containing a product ID and amount of purchase for that product`  
+`&nbsp;&nbsp;&nbsp;&nbsp;this.user = user;`  
+`&nbsp;&nbsp;&nbsp;&nbsp;this.cartArray = cartArray; // cartArray is an array of objects each containing a product ID and amount of purchase for that product`  
 `}`  
 Order object (constructor)  
-`function Order(user, productID, amount, status) {  
-    this.user = user;  
-    this.productID = productID;  
-    this.amount = amount;  
-    this.status = status; // Status defines the status of the product delivery from the online store  
-}`
+`function Order(user, productID, amount, status) {`  
+`&nbsp;&nbsp;&nbsp;&nbsp;this.user = user;`  
+`&nbsp;&nbsp;&nbsp;&nbsp;this.productID = productID;`  
+`&nbsp;&nbsp;&nbsp;&nbsp;this.amount = amount;`  
+`&nbsp;&nbsp;&nbsp;&nbsp;this.status = status; // Status defines the status of the product delivery from the online store`  
+`}`
