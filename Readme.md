@@ -42,10 +42,10 @@ Wishlist object (constructor)
     this.wishlistArray = this.wishlistArray; // wishlistArray is an array of product IDs  
 }`  
 Cart object (constructor)  
-`function Cart(user, cartArray) {  
-    this.user = user;  
-    this.cartArray = cartArray; // cartArray is an array of objects each containing a product ID and amount of purchase for that product  
-}`  
+`function Cart(user, cartArray) {`  
+`    this.user = user;`  
+`    this.cartArray = cartArray; // cartArray is an array of objects each containing a product ID and amount of purchase for that product`  
+`}`  
 Order object (constructor)  
 `function Order(user, productID, amount, status) {  
     this.user = user;  
